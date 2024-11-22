@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <h2>hello world</h2>
-    abcs
-    <h4>this is a website</h4>
+    <div id="base"><div id="root"><form id="form_root_login">
+        <h1 id="title">login</h1>
+        <h3>Username</h3>
+        <input placeholder="John" required id="Username" type="text" maxlength="30">
+        <h3>Email</h3>
+        <input placeholder="example@gmail.com" required id="Email" type="email">
+        <h3>Password</h3>
+        <input placeholder="1234" required id="Password" type="password"  minlength="4" maxlength="70">
+        <h3>Password Confirm</h3><input placeholder="1234" required id="Password_Confirm" type="password" minlength="4" maxlength="70">
+        <br><button type="submit" id="confirmation">Create Account</button>
+
+
+    </form></div></div>
+    <script src="./index.js"></script>
 </body>
 </html>
